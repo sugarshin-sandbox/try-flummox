@@ -1,0 +1,24 @@
+{
+  "name": "react-proto",
+  "version": "0.0.0",
+  "description": "Rapid prototyping on React",
+  "repository": "git@github.com:sugarshin/react-proto.git",
+  "scripts": {
+    "start": "budo main.jsx:main.js -v --live -- -t babelify --extension='.jsx' | garnish"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.0",
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "flummox": "^4.0.0-alpha2",
+    "react": "^0.13.3"
+  }
+}
